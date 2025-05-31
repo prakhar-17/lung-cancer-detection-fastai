@@ -76,25 +76,6 @@ To build a reproducible and interpretable pipeline for early lung cancer detecti
 
 *Red regions indicate what the model focuses on for prediction*
 
----
-
-##  Project Structure
-
-lung-cancer-detection-fastai/
-├── data/
-│ ├── raw/
-│ └── interim/
-├── notebooks/
-│ └── 01_model_training.ipynb
-├── src/
-│ ├── data_prep.py
-│ ├── model.py
-│ ├── evaluate.py
-│ └── visualize.py
-├── exported/
-│ └── lung_model.pkl
-├── README.md
-├── requirements.txt
 
 ## Future Work
 
